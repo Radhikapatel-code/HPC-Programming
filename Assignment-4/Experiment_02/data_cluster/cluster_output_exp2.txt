@@ -1,0 +1,4 @@
+ProblemIndex	Total_Interp_Time
+1	24.393233
+2	25.252342
+3	25.921167
