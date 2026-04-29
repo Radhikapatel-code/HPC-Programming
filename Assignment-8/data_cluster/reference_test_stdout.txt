@@ -1,0 +1,9 @@
+Grid: 100x100 | Particles: 10000 | Iterations: 5
+MPI ranks: 1 (python reference)
+Mesh saved to reference_test_output.txt  (101 x 101 grid)
+Total Interpolation Time   = 0.087906 seconds
+Total Normalization Time   = 0.007341 seconds
+Total Mover Time           = 0.093071 seconds
+Total Denormalization Time = 0.006399 seconds
+Total Algorithm Time       = 0.194718 seconds
+Total Number of Voids      = 0

@@ -1,0 +1,9 @@
+Grid: 100x100 | Particles: 10000 | Iterations: 5
+MPI ranks: 4
+Mesh saved to parallel_correctness_output.txt  (101 x 101 grid)
+Total Interpolation Time   = 0.001003 seconds
+Total Normalization Time   = 0.000266 seconds
+Total Mover Time           = 0.000239 seconds
+Total Denormalization Time = 0.000014 seconds
+Total Algorithm Time       = 0.001522 seconds
+Total Number of Voids      = 0

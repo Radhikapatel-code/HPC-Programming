@@ -1,0 +1,7 @@
+Cluster Performance Summary
+
+Config a - 0.9M (250x100): best time = 0.141737s at 16 threads, speedup = 2.77x, efficiency = 17.3%
+Config b - 5M (250x100): best time = 0.947379s at 8 threads, speedup = 2.26x, efficiency = 28.3%
+Config c - 3.6M (500x200): best time = 0.906852s at 16 threads, speedup = 3.46x, efficiency = 21.6%
+Config d - 20M (500x200): best time = 3.616623s at 16 threads, speedup = 3.21x, efficiency = 20.0%
+Config e - 14M (1000x400): best time = 2.932337s at 16 threads, speedup = 3.50x, efficiency = 21.9%

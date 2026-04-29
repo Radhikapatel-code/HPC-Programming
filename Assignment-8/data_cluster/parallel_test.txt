@@ -1,0 +1,26 @@
+[202301011@gics0 code_files]$ mpirun -np 1 ./parallel test.bin
+[1776858375.938816] [gics0:3513 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3199.97
+Grid: 100x100 | Particles: 10000 | Iterations: 5
+MPI ranks: 1
+Mesh saved to output.txt  (101 x 101 grid)
+Total Interpolation Time   = 0.000709 seconds
+Total Normalization Time   = 0.000123 seconds
+Total Mover Time           = 0.000832 seconds
+Total Denormalization Time = 0.000012 seconds
+Total Algorithm Time       = 0.001676 seconds
+Total Number of Voids      = 0
+[202301011@gics0 code_files]$ mpirun -np 4 ./parallel test.bin
+[1776858387.513291] [gics0:3518 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3107.53
+[1776858387.514886] [gics0:3520 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3107.53
+[1776858387.516652] [gics0:3521 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3111.00
+[1776858387.517807] [gics0:3519 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3111.00
+Grid: 100x100 | Particles: 10000 | Iterations: 5
+MPI ranks: 4
+Mesh saved to output.txt  (101 x 101 grid)
+Total Interpolation Time   = 0.001003 seconds
+Total Normalization Time   = 0.000266 seconds
+Total Mover Time           = 0.000239 seconds
+Total Denormalization Time = 0.000014 seconds
+Total Algorithm Time       = 0.001522 seconds
+^C[202301011@gics0 code_files]$ 
+

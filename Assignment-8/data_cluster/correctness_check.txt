@@ -1,0 +1,4 @@
+PASS: max diff = 0.000000000000e+00
+Compared files:
+- serial_correctness_output.txt
+- parallel_correctness_output.txt
